@@ -1,0 +1,68 @@
+Note: Most of this text is copied from conversations with ChatGPT3.5.
+
+Me:
+I want my website to be split into 2 sections: "By Day" will have content about my career and professional skills, and the "By Night" section will have content about my hobbies. I want my hobbies to be split into sections, "Geeking Out," which will be music, movie and book reviews, and "Making," which will showcase my art. Can you help me organize this website plan?
+
+ChatGPT3:
+Certainly! Here's a structured plan for your website:
+
+### Homepage:
+- Welcome message introducing visitors to your website and explaining the two sections: "By Day" and "By Night."
+- Navigation menu directing visitors to each section.
+- Eye-catching visuals or graphics representing your career and hobbies.
+
+### "By Day" Section:
+1. **About Me**: 
+   - A brief overview of your professional background, skills, and expertise.
+   
+2. **Resume/CV**: 
+   - A downloadable version of your resume or curriculum vitae.
+   
+3. **Portfolio**:
+   - Showcase your professional projects, achievements, and any relevant work samples.
+
+4. **Services**:
+   - If applicable, describe the services you offer in your professional capacity.
+
+5. **Testimonials**:
+   - Display testimonials or recommendations from clients or colleagues.
+
+6. **Contact**:
+   - Provide contact information or a contact form for inquiries related to your professional work.
+
+### "By Night" Section:
+1. **About Me** (Hobbies Edition):
+   - Introduce your hobbies and interests, explaining why they are important to you.
+
+2. **Geeking Out**:
+   - Sub-section for music, movie, and book reviews.
+     - Music Reviews
+     - Movie Reviews
+     - Book Reviews
+
+3. **Making**:
+   - Sub-section showcasing your art.
+     - Artwork Galleries
+     - Creative Projects
+   
+4. **Blog**:
+   - Share personal insights, reflections, or updates related to your hobbies.
+   
+5. **Resources**:
+   - Provide links to resources, communities, or tools related to your hobbies.
+
+6. **Newsletter Signup**:
+   - Encourage visitors to subscribe to updates about your hobbies.
+
+### Footer:
+- Include links to important pages (e.g., About Me, Contact, Privacy Policy).
+- Social media icons linking to your profiles.
+
+### Design Considerations:
+- Use a visually appealing design that reflects both your professional and personal interests.
+- Ensure easy navigation between the "By Day" and "By Night" sections.
+- Incorporate high-quality images or visuals relevant to each section.
+- Choose a layout that allows for clear organization and readability.
+
+By following this plan, visitors to your website will be able to easily navigate between your professional and personal content, allowing them to learn more about both aspects of your life.
+

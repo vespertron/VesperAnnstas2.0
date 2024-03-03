@@ -1,0 +1,45 @@
+- Home
+  - Welcome message
+  - Navigation menu
+
+- By Day
+  - About Me
+  - Introduction
+  - Professional background
+  - Skills and expertise
+  - Resume/CV
+  - Downloadable version
+  - Portfolio
+  - Professional projects
+  - Work samples
+  - Services
+  - Description of offered services
+  - Testimonials
+  - Client or colleague recommendations
+  - Contact
+  - Contact information
+  - Contact form
+
+- By Night
+  - About Me (Hobbies Edition)
+  - Introduction to hobbies and interests
+  - Geeking Out
+  - Music Reviews
+  - Movie Reviews
+  - Book Reviews
+  - Making
+  - Artwork Galleries
+  - Creative Projects
+  - Blog
+  - Personal insights and reflections
+  - Hobby-related updates
+  - Resources
+  - Links to hobby-related resources and communities
+  - Newsletter Signup
+  - Subscription form for updates
+
+- Footer
+  - About Me
+  - Contact
+  - Privacy Policy
+  - Social media icons
