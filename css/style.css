@@ -1,3 +1,21 @@
+/* All */
+* {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.montserrat-heading {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; //100-900
+  font-style: normal;
+}
+
+
 /* Header Section */
 
 
@@ -15,7 +33,7 @@
   }
 
   /* Style the overlay links */
-  .overlay-link1 {
+  #overlay-link1 {
     position: absolute;
     top: 15%;
     right: 5%;
@@ -31,7 +49,7 @@
     /* Smooth transition for hover effect */
   }
 
-  .overlay-link2 {
+  #overlay-link2 {
     position: absolute;
     bottom: 15%;
     left: 5%;
