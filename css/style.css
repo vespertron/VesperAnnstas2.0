@@ -1,4 +1,12 @@
 /* All */
+:root {
+  /* Color Variables */
+  --primary-color: #333333; /* Primary Color: Charcoal Grey */
+  --secondary-color: #FFDB58; /* Secondary Color: Mustard Yellow */
+  --tertiary-color: #222222; /* Tertiary Color: Dark Charcoal */
+  --accent-color: #FFEEAD; /* Accent Color: Light Mustard */
+}
+
 * {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
@@ -6,6 +14,22 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+
+body {
+  background-color: var();
+}
+
+.container {
+
+}
+
+.button {
+  background-color: var(--tertiary-color);
+}
+
+.link {
+  color: var(--accent-color);
 }
 
 .montserrat-heading {
@@ -66,6 +90,36 @@
   }
 
   /* Hover effect for overlay links */
-  .overlay-link1:hover, .overlay-link2:hover {
+  #overlay-link1:hover, #overlay-link2:hover {
     background-color: rgba(255, 255, 255, 0.7); /* Lighten the background on hover */
   }
+
+
+/* Quote of the Day */
+.quote-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #f0f0f0; /* Grey background */
+  padding: 20px;
+}
+
+.quote-content {
+  margin-left: auto;
+}
+
+.quote-content h2,
+.quote-content p {
+  text-align: right;
+}
+
+.image-container {
+  width: 100px; /* Set the width of the image container */
+  margin-left: 20px; /* Add space between text and image */
+  margin-right: 7%;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 50%; /* Make the image circular */
+}
