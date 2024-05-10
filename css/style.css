@@ -17,7 +17,52 @@
 }
 
 body {
+  margin: 0;
   background-color: var();
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.navbar h1 {
+  color: #fff;
+  margin: 0;
+  display: inline;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.content {
+  padding-top: 70px; /* Adjust according to the height of the navigation bar */
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .button {
