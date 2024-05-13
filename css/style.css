@@ -190,6 +190,16 @@ nav ul li a {
 }
 
 .home-blog-teaser-image-container img {
+  top: 1432px;
+  left: 81px;
+  width: 577px;
+  height: 572px;
+  border-radius: 50%; /* 100000px; */
+  background-image: url(./image.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+/*  
   width: 100%;
   border-radius: 50%; /* Make the image circular */
 }
@@ -197,3 +207,8 @@ nav ul li a {
 .home-blog-teaser-content {
   margin: 25px; 
 } 
+
+/* Homepage "Under Construction" Notice */
+.notice-content {
+  margin: 25px;
+}
