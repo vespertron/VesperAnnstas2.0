@@ -1,50 +1,50 @@
+<!-- main.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Vesper Annstas's personal website">
-    <meta name="keywords" content="">
-    <title>Vesper Annstas Home Page</title>
-
-    <!-- <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script> -->
-    <!--  	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-      crossorigin="anonymous"></script> -->
-    <script src="js/script.js"></script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <link rel="icon" href="img/VA_logo_black_transparent.png">
-
+    <title>Vesper Annstas Home</title>
 </head>
 <body>
+    <div id="targetDiv">
+        <!-- Content from html modules will be injected here -->
+    </div>
 
-  <div class="quote-container">
-    <div class="quote-content">
-      <h2>Quote of the Day</h2>
-      <p>"What is the work if it isn't a ticket to slip into vivid euphoria, huh?"</p>
-      <p class="author">- Aesop Rock</p>
-    </div>
-    <div class="image-container">
-      <img src="img/ian_bavitz_aesop_rock.jpg" alt="Aesop Rock">
-    </div>
-  </div>
+    <script>
+        async function loadContent() {
+            const sources = ['html/header.html', 'html/homepage-quote-of-the-day.html'];
+            const targetDiv = document.getElementById('targetDiv');
 
-  <div class="notice-container">
-    <div class=".home-blog-teaser-image-container">
-      <a href="https://github.com/vespertron/VesperAnnstas2.0">
-        <img src="img/icons/github_black_transparent.png">
-      </a>
-    </div>
-    <div class="notice-content">
-      <h1>Exciting things are brewing, including the rest of this website...</h1>
-    </div>
-        
-  </div>
+            for (const source of sources) {
+                try {
+                    console.log(`Fetching ${source}...`);
+                    const response = await fetch(source);
 
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+
+                    const text = await response.text();
+                    console.log(`Content from ${source} fetched successfully.`);
+
+                    const tempDiv = document.createElement('div');
+                    tempDiv.innerHTML = text;
+
+                    const sourceDiv = tempDiv.querySelector('div[id^="sourceDiv"]');
+                    if (sourceDiv) {
+                        targetDiv.appendChild(sourceDiv.cloneNode(true));
+                        console.log(`Content from ${source} loaded successfully.`);
+                    } else {
+                        console.error(`sourceDiv not found in ${source}.`);
+                    }
+                } catch (error) {
+                    console.error(`Error loading content from ${source}:`, error);
+                }
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', loadContent);
+    </script>
 </body>
 </html>
