@@ -209,6 +209,13 @@ nav ul li a {
 } 
 
 /* Homepage "Under Construction" Notice */
-.notice-content {
-  margin: 25px;
+.notice-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
 }
+
+.notice-content {
+  margin: 25px; 
+} 
