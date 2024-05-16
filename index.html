@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vesper Annstas Home</title>
+
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <div id="targetDiv">
@@ -13,7 +15,11 @@
 
     <script>
         async function loadContent() {
-            const sources = ['html/header.html', 'html/homepage-quote-of-the-day.html'];
+            const sources = [
+                'html/header.html',
+                'html/homepage-hero.html', 
+                'html/homepage-quote-of-the-day.html'
+            ];
             const targetDiv = document.getElementById('targetDiv');
 
             for (const source of sources) {
