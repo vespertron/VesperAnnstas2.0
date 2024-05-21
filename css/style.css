@@ -222,6 +222,23 @@ nav ul li a {
 
 
 /* Footer Section */
+footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
 .footer-right {
-  
+  display: flex;
+  align-items: center;
+}
+
+.footer-image-container {
+  width: 30px;
 }
