@@ -92,6 +92,14 @@ nav ul li a {
 
 
 /* Header Section */
+header {
+  color: #030303;
+  font-size: 36px;
+  font-family: "Roboto";
+  font-weight: 700;
+  line-height: 47px;
+  text-align: center;
+}
 
 
 /* Hero Section */
