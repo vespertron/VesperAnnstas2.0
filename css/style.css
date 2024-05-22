@@ -230,10 +230,10 @@ header {
 
 
 /* Footer Section */
-footer {
+.footer {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  width: 100%;
   padding: 20px;
 }
 
@@ -242,11 +242,22 @@ footer {
   align-items: center;
 }
 
-.footer-right {
-  display: flex;
-  align-items: center;
+.footer-text {
+  margin-left: 7px;
+  font-size: 16px;
 }
 
-.footer-image-container {
-  width: 30px;
+.footer-right {
+  display: flex;
+}
+
+.footer-icon {
+  margin-left: 7px;
+}
+
+.footer-icon img {
+  padding: 4px;
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
 }
