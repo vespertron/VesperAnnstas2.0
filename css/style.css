@@ -21,18 +21,14 @@ body {
   background-color: var();
 }
 
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px 0;
-}
 
+
+/* Navigation Bar */
 .navbar {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #333;
+  background-color: var(--primary-color);
   padding: 10px 0;
   z-index: 1000;
 }
@@ -103,6 +99,11 @@ header {
 
 
 /* Hero Section */
+.hero-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .column {
     flex: 30%;
     padding: 5px;
@@ -111,7 +112,7 @@ header {
   img {
     width: 100%;
   }
-  .container {
+  .hero-container {
      display: flex;
   }
 
@@ -198,12 +199,12 @@ header {
 }
 
 .home-blog-teaser-image-container img {
-  top: 1432px;
+  /* top: 1432px;
   left: 81px;
   width: 577px;
-  height: 572px;
+  height: 572px; */
   border-radius: 50%; /* 100000px; */
-  background-image: url(./image.jpg);
+  /* background-image: url(./image.jpg); */
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
