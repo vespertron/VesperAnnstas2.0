@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume</title>
+    <link rel="stylesheet" href="../css/style2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Resume</h1>
+        <div class="selectors">
+            <label for="jobRole">Select Job Role:</label>
+            <select id="jobRole" onchange="updateResume()">
+                <option value="developer">Developer</option>
+                <option value="dataAnalyst">Data Analyst</option>
+                <option value="projectManager">Project Manager</option>
+            </select>
+
+            <label for="skills">Select Skill:</label>
+            <select id="skills" onchange="updateResume()">
+                <option value="javascript">JavaScript</option>
+                <option value="python">Python</option>
+                <option value="projectManagement">Project Management</option>
+            </select>
+        </div>
+        <div id="resumeContent">
+            <!-- Resume content will be dynamically inserted here -->
+        </div>
+        <button id="printButton" onclick="printResume()">Print as PDF</button>
+    </div>
+    <script src="../js/resume.js"></script>
+</body>
+</html>

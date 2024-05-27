@@ -1,6 +1,11 @@
 - Home
   - Welcome message
   - Navigation menu
+  - Hero Section
+    - By Day Navigation
+    - By Night Navigation
+  - Quote of the Day
+  - Blog Teaser Navigation
 
 - By Day
   - About Me
@@ -8,7 +13,7 @@
   - Professional background
   - Skills and expertise
   - Resume/CV
-  - Downloadable version
+  - Downloadable version based on role or expertise
   - Portfolio
   - Professional projects
   - Work samples
@@ -24,10 +29,10 @@
   - About Me (Hobbies Edition)
   - Introduction to hobbies and interests
   - Geeking Out
-  - Music Reviews
-  - Movie Reviews
-  - Book Reviews
-  - Making
+   - Music Reviews
+   - Movie Reviews
+   - Book Reviews
+   - Making
   - Artwork Galleries
   - Creative Projects
   - Blog
