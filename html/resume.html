@@ -4,30 +4,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dynamic Resume</title>
-    <link rel="stylesheet" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Vesper the Data & Technology Consultant</h1>
+    <div class="resumeContainer">
+      <div class="resumeIntro">
+        <h1>Vesper by Day</h1>
+        <p>Vesper is the person to go to to "find the walls in a dark room" as one former colleague described her. She specializes in reducing human decisions (and blood pressure, most importantly), be it through a streamlined business process, sound data architecture, or human-centered data visualizations and user interfaces. She has a proven track record of effective stakeholder interviews, process and system documentation, and quality design recommendations and implementation across industries, job roles, and tech stacks.</p>
+        <p>In keeping with her passion for versatility and people-first systems and processes, Vesper is growing her skills in project management, programming and machine learning. When she's not advancing her full-stack technology chops through building and maintaining websites like this one, she is studying for the PCEP (Certified Entry Level Python Programmer) certification. She also loves helping her creative, small-business friends solve their web hosting and web development needs, and has even designed PowerPoint templates and curriculum for local Portland educators.</p>
+        </br>
+        <h1>Resume</h1>
+        <p>Choose a job role, skill, and / or industry to see how her strengths and experience may be able to add value to your company's unique needs.</p>
+
         <div class="selectors">
+            <!-- Job Role drop-down menu -->
             <label for="jobRole">Select Job Role:</label>
             <select id="jobRole" onchange="updateResume()">
-                <option value="developer">Developer</option>
+                <option value="none">None</option>
+                <option value="businessAnalyst">Business Analyst</option>
+                <option value="businessIntelligenceAnalyst">Business Intelligence Analyst</option>
+                <option value="businessSystesAnalyst">Business Systems Analyst</option>
                 <option value="dataAnalyst">Data Analyst</option>
+                <option value="databaseDeveloper">Database Developer</option>
+                <option value="dataEngineer">Data Engineer</option>
                 <option value="projectManager">Project Manager</option>
+                <option value="reportingAnalyst">Reporting Analyst</option>
             </select>
 
+            <!-- Skills drop-down menu -->
             <label for="skills">Select Skill:</label>
             <select id="skills" onchange="updateResume()">
-                <option value="javascript">JavaScript</option>
-                <option value="python">Python</option>
-                <option value="projectManagement">Project Management</option>
+                <option value="none">None</option>
+                <optgroup label="Business">
+                    <option value="leadership">Leadership</option>
+                    <option value="communication">Communication</option>
+                    <option value="analyticalProblemSolving">Analytical Problem Solving</option>
+                    <option value="projectManagement">Project Management</option>
+                    <option value="businessAnalysis">Business Analysis</option>
+                    <option value="stakeholderInterviews">Stakeholder Interviews</option>
+                    <option value="requirementsGathering">Requirements Gathering</option>
+                    <option value="changeManagement">Change Management</option>
+                    <option value="processImprovement">Process Improvement</option>                </optgroup>
+
+                <optgroup label="Data Engineering">
+                    <option value="snowflake">Snowflake</option>
+                </optgroup>
+
+                <optgroup label="Data Analytics">
+                    <option value="dataAnalysis">Data Analysis</option>
+                    <option value="dataModeling">Data Modeling</option>    
+                    <option value="msSQL">MSSQL</option> 
+                    <option value="tableauPrep">Tableau Prep</option> 
+                    <option value="dataGovernance">Data Governance</option>   
+                    <option value="msExcel">MS Excel</option>          
+                </optgroup>
+
+                <optgroup label="Data Visualization">
+                    <option value="msPowerBI">PowerBI</option>
+                </optgroup>
+
+                <optgroup label="Data Governance">
+                    <option value="alation">Alation</option>
+                </optgroup>
+
+                <optgroup label="CRM">
+                    <option value="salesforce">Salesforce</option>
+                </optgroup>
+
+                <optgroup label="Languages & Frameworks">
+                    <option value="sql">SQL</option> 
+                    <option value="python">Python</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="json">JSON</option>
+                    <option value="ms">Microsoft Suite</option>                  
+                </optgroup>
+
+                <optgroup label="Documentation">
+                    <option value="confluence">Confluence</option>
+                    <option value="msSharepoint">Sharepoint</option>
+                    <option value="msPowerPoint">PowerPoint</option>
+                </optgroup>
+
+                <optgroup label="Collaboration">
+                    <option value="jira">Jira</option>
+                    <option value="git">Git</option>
+                    <option value="agile">Agile SCRUM Methodologies</option>
+                </optgroup>
+
+            </select>
+
+            <!-- Industry drop-down menu -->
+            <label for="industry">Industry:</label>
+            <select id="industry" onchange="updateResume()">
+                <option value="none">None</option>
+                <option value="finance">Finance</option>
+                <option value="healthcare">Healthcare</option>
+                <option value="legal">Legal</option>
+                <option value="logistics">Logistics</option>
+                <option value="manufacturing">Manufacturing</option>
+                <option value="retail">Retail</option>
+                <option value="telecommunications">Telecommunications</option>
             </select>
         </div>
+      <div id="experience">
+        <span>Years of Experience</span>
+      </div>
+      </div>
         <div id="resumeContent">
-            <!-- Resume content will be dynamically inserted here -->
+            <div class="upper">
+                <div class="left">
+                    <h1 id="name">Vesper Annstas</h1>
+                </div>
+                <div class="right">
+                    <ul class="contactInfo">
+                        <li>www.linkedin.com/in/vesperannstas</li>
+                        <li>www.vesperannstas.com</li>
+                    </ul>
+                    <p id="aboutMeContent"></p>
+                </div>
+            </div>
+            <div class="lower">
+                <div class="left">
+                    <h2>Skills</h2>
+                    <ul id="skillsList"></ul>
+                </div>
+                <div class="right">
+                    <h2>Experience</h2>
+                    <p id="experienceContent"></p>
+                </div>
+            </div>
         </div>
-        <button id="printButton" onclick="printResume()">Print as PDF</button>
+        <button id="printButton" onclick="printResume()">Print Resume</button>
     </div>
     <script src="../js/resume.js"></script>
 </body>

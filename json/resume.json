@@ -1,0 +1,140 @@
+{
+    "experiences": [
+      {
+        "company": "Faster Permits, LLC",
+        "startDate": "2002-01-01",
+        "endDate": "2003-01-01",
+        "role": "Assistant",
+        "skills": ["Communication", "Excel", "Microsoft Office Suite", "System Documentation", "Process Documentation", "Time Management"],
+        "industry": "Construction",
+        "description": ""
+      },      
+      {
+        "company": "Papa Murphy's Pizza",
+        "startDate": "2003-01-01",
+        "endDate": "2006-01-01",
+        "role": "Shift Lead",
+        "skills": ["Leadership", "Communication", "Excel", "Microsoft Office Suite", "Training Others", "Process Documentation", "Time Management"],
+        "industry": "Service",
+        "description": ""
+      },
+      {
+        "company": "Trade Secret Beauty Supply & Salon",
+        "startDate": "2005-01-01",
+        "endDate": "2006-01-01",
+        "role": "Store Manager",
+        "skills": ["Communication", "Excel","Microsoft Office Suite", "Business Process Improvement", "Training Others", "Process Documentation", "Time Management"],
+        "industry": "Service",
+        "description": ""
+      },
+      {
+        "company": "Peak Performance Concepts, LLC",
+        "startDate": "2006-01-01",
+        "endDate": "2008-01-01",
+        "role": "Executive Office Manager",
+        "skills": ["Excel", "Microsoft Office Suite", "Communication", "Business Process Improvement", "Process Documentation", "Time Management"],
+        "industry": "Finance",
+        "description": ""
+      },
+      {
+        "company": "Wells Fargo Bank",
+        "startDate": "2008-01-01",
+        "endDate": "2010-01-01",
+        "role": "Customer Service",
+        "skills": ["Communication", "Business Process Improvement", "Process Documentation", "Information Security", "Compliance", "Sales"],
+        "industry": "Finance",
+        "description": ""
+      },
+      {
+        "company": "Evoluer Design",
+        "startDate": "2010-01-01",
+        "endDate": "2012-01-01",
+        "role": "Principal",
+        "skills": ["Communication", "Product Design", "Sales"],
+        "industry": "Retail",
+        "description": ""
+      },  
+      {
+        "company": "Cover Oregon",
+        "startDate": "2013-09-01",
+        "endDate": "2014-07-01",
+        "role": "Eligibility Specialist",
+        "skills": ["Communication", "Business Process Improvement","Excel", "Analytical Problem Solving", "Stakeholder Interviews", "Requirements Gathering", "Technical Requirements", "Process Documentation", "System Documentation", "Data Governance", "Reporting", "Smartsheet", "Microsoft Office Suite", "HIPAA Compliance", "Oracle Database", "Medicaid", "Insurance Codes", "Information Security", "Change Management", "System Administration", "Quality Assurance", "Technical Issue Resolution", "Compliance"],
+        "industry": "Healthcare",
+        "description": ""
+      }, 
+      {
+        "company": "CTDI Global",
+        "startDate": "2014-01-01",
+        "endDate": "2015-01-01",
+        "role": "Shipping & Receiving Records Administrator",
+        "skills": ["Communication", "Business Process Improvement","Excel", "Analytical Problem Solving", "Stakeholder Interviews", "Requirements Gathering", "Reporting", "Smartsheet", "Microsoft Office Suite", "Quality Assurance", "Time Management"],
+        "industry": "Logistics",
+        "description": ""
+      },      
+      {
+        "company": "OIA Global",
+        "startDate": "2015-01-01",
+        "endDate": "2017-01-01",
+        "role": "Business Applications Support Analyst",
+        "skills": ["Communication", "Agile SCRUM", "Business Process Improvement", "Change Management", "SQL", "T-SQL", "XML", "ETL", "SSIS", "C#", "Excel", "Power BI", "Tableau", "Analytical Problem Solving", "Stakeholder Interviews", "Requirements Gathering", "Dashboard Development", "Reporting", "Microsoft Office Suite", "DAX", "Compliance", "Time Management"],
+        "industry": "Logistics",
+        "description": ""
+      },
+      {
+        "company": "The Standard & Northwestern Mutual",
+        "startDate": "2018-01-01",
+        "endDate": "2018-04-01",
+        "role": "Business Intelligence Analyst",
+        "skills": ["Business Process Improvement", "Compliance", "Requirements Gathering","Stakeholder Interviews", "System Documentation", "Process Documentation", "Dashboard Development", "MS Access", "Excel", "DAX", "Microsoft Office Suite", "Information Security", "Change Management","Business Intelligence", "Data Visualization", "Business Analysis", "Systems Analysis", "Data Analysis", "Time Management", "Smartsheet", "Communication", "Power BI"],
+        "industry": "Insurance",
+        "description": ""
+      },
+      {
+        "company": "Interject Data Systems, LLC",
+        "startDate":"2018-04-01",
+        "endDate": "2019-08-01",
+        "role": "Database Developer",
+        "skills": ["Agile SCRUM", "Analytical Problem Solving","Business Analysis", "Business Intelligence", "Business Process Improvement","SQL","T-SQL","Microsoft Office Suite","Excel","Data Analysis","Database Development", "Relational Databases", "System Administration", "API Development", "ETL", "SSIS","Systems Analysis", "Quality Assurance", "Technical Requirements", "Technical Issue Resolution", "Communication", "Dashboard Development","Data Governance", "DAX", "Reporting", "Requirements Gathering", "Stakeholder Interviews", "Training Others", "XML"],
+        "industry": "Manufacturing",
+        "description": ""
+      },
+      {
+        "company": "Daimler Trucks North America",
+        "startDate":"2019-08-01",
+        "endDate": "2020-04-01",
+        "role": ["Business Systems Analyst", "Business Intelligence Developer"],
+        "skills": ["Agile SCRUM", "JSON", "PowerPoint", "Power BI", "Tableau", "Cognos", "Alation", "Data Governance", "Requirements Gathering", "Stakeholder Interviews", "Information Security", "Analytical Problem Solving", "Data Engineering", "Communication", "Change Management", "Business Analysis", "Business Intelligence", "Business Process Improvement", "Training Others", "Technical Requirements", "Dashboard Development", "System Documentation", "Process Documentation", "Project Management", "DAX", "Excel", "Microsoft Office Suite", "JIRA", "Quality Assurance", "Relational Databases", "Reporting", "SQL"],
+        "industry": "Manufacturing",
+        "description": ""
+      },
+      {
+        "company": "Epiq",
+        "startDate":"2020-06-01",
+        "endDate": "2022-03-01",
+        "role": "Business Systems Analyst",
+        "skills": [],
+        "industry": "Legal",
+        "description": "Determined what data is required based on functional requirements, and defining how that data and business rules will translate to internal applications"
+      },
+      {
+        "company": "Slalom",
+        "startDate":"",
+        "endDate": "",
+        "role": "",
+        "skills": [],
+        "industry": "",
+        "description": ""
+      },
+      {
+        "company": "Jax Digital",
+        "startDate":"2024-03-01",
+        "endDate": "",
+        "role": "Principal",
+        "skills": ["Agile SCRUM", "Analytical Problem Solving", "Time Management","Stakeholder Interviews","Technical Requirements","Requirements Gathering","Process Documentation", "Business Process Improvement","Excel","Dashboard Development","Communication","Sales","System Administration","Web Design", "Web Development","HTML", "CSS", "JavaScript","Node.js","JSON", "Express.js", "Smartsheet", "Trello", "PowerPoint", "Python", "Microsoft Office Suite", "Information Security","Leadership","SQL"],
+        "industry": "",
+        "description": ""
+      }
+    ]
+  }
+  
