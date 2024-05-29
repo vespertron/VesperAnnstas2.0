@@ -113,16 +113,16 @@
         "startDate":"2020-06-01",
         "endDate": "2022-03-01",
         "role": "Business Systems Analyst",
-        "skills": [],
+        "skills": ["Agile SCRUM", "Analytical Problem Solving","Business Analysis", "Data Analysis", "Data Modeling", "Business Process Improvement","Change Management","Communication","Compliance","Data Governance","Database Development","ETL","Excel","Information Security","Microsoft Office Suite","Process Documentation","Quality Assurance","Relational Databases","Reporting","Requirements Gathering","SQL","Stakeholder Interviews","System Documentation","Systems Analysis","T-SQL","Technical Issue Resolution","Technical Requirements","Time Management","Training Others"],
         "industry": "Legal",
         "description": "Determined what data is required based on functional requirements, and defining how that data and business rules will translate to internal applications"
       },
       {
         "company": "Slalom",
-        "startDate":"",
-        "endDate": "",
-        "role": "",
-        "skills": [],
+        "startDate":"2022-03-01",
+        "endDate": "2024-03-01",
+        "role": "Associate Consultant",
+        "skills": ["Agile SCRUM","Analytical Problem Solving","API Development","Business Analysis","Business Intelligence","Business Process Improvement","Change Management","Communication","Dashboard Development","Data Analysis","Data Engineering","Data Governance","Data Visualization","Database Development","DAX","ETL","Excel","Information Security","JIRA","Leadership","Microsoft Office Suite","Power BI","PowerPoint","Process Documentation","Project Management","Python","Quality Assurance","Relational Databases","Reporting","Requirements Gathering","Sales","SQL","Stakeholder Interviews","System Administration","System Documentation","Systems Analysis","T-SQL","Tableau","Tableau Prep", "Salesforce", "CRMA", "Technical Requirements", "Time Management", "Training Others", "Trello"],
         "industry": "",
         "description": ""
       },
@@ -132,7 +132,7 @@
         "endDate": "",
         "role": "Principal",
         "skills": ["Agile SCRUM", "Analytical Problem Solving", "Time Management","Stakeholder Interviews","Technical Requirements","Requirements Gathering","Process Documentation", "Business Process Improvement","Excel","Dashboard Development","Communication","Sales","System Administration","Web Design", "Web Development","HTML", "CSS", "JavaScript","Node.js","JSON", "Express.js", "Smartsheet", "Trello", "PowerPoint", "Python", "Microsoft Office Suite", "Information Security","Leadership","SQL"],
-        "industry": "",
+        "industry": "Technology",
         "description": ""
       }
     ]
