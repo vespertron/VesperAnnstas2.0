@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-const resumeData = require('../json/resumeData.json');
+const resumeData = require('resumeData.json');
 
 app.get('/roles', (req, res) => {
     const roles = [...new Set(resumeData.experiences.map(exp => exp.role))];
