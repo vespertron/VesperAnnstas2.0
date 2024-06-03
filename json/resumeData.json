@@ -23,7 +23,7 @@
         "startDate": "2005-01-01",
         "endDate": "2006-01-01",
         "role": "Store Manager",
-        "skills": ["Communication", "Excel","Microsoft Office Suite", "Business Process Improvement", "Training Others", "Process Documentation", "Time Management"],
+        "skills": ["Leadership", "Communication", "Excel","Microsoft Office Suite", "Business Process Improvement", "Training Others", "Process Documentation", "Time Management"],
         "industry": "Service",
         "description": ""
       },
@@ -103,7 +103,7 @@
         "company": "Daimler Trucks North America",
         "startDate":"2019-08-01",
         "endDate": "2020-04-01",
-        "role": ["Business Systems Analyst", "Business Intelligence Developer"],
+        "role": "Business Intelligence Developer",
         "skills": ["Agile SCRUM", "JSON", "PowerPoint", "Power BI", "Tableau", "Cognos", "Alation", "Data Governance", "Requirements Gathering", "Stakeholder Interviews", "Information Security", "Analytical Problem Solving", "Data Engineering", "Communication", "Change Management", "Business Analysis", "Business Intelligence", "Business Process Improvement", "Training Others", "Technical Requirements", "Dashboard Development", "System Documentation", "Process Documentation", "Project Management", "DAX", "Excel", "Microsoft Office Suite", "JIRA", "Quality Assurance", "Relational Databases", "Reporting", "SQL"],
         "industry": "Manufacturing",
         "description": ""

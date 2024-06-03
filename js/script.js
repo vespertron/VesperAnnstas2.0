@@ -54,37 +54,21 @@ async function updateResume() {
     try {
         const response = await fetch(`/resume?role=${jobRole}&skill=${skill}&industry=${industry}`);
         if (response.ok) {
-            const resume = await response.json();
-            document.getElementById('aboutMeContent').textContent = resume.aboutMe;
-            document.getElementById('skillsList').innerHTML = resume.skills.map(skill => `<li>${skill}</li>`).join('');
-            document.getElementById('experienceContent').innerHTML = resume.experience.map(exp => 
-                `<div class="experience-entry">
-                    <h3>${exp.company}</h3>
+            const data = await response.json();
+            document.getElementById('aboutMeContent').innerText = data.aboutMe;
+            document.getElementById('skillsList').innerHTML = data.skills.map(skill => `<li>${skill}</li>`).join('');
+            document.getElementById('experienceContent').innerHTML = data.experience.map(exp => `
+                <div class="experience-entry">
+                    <h3>${exp.role} at ${exp.company}</h3>
                     <p>${exp.startDate} - ${exp.endDate}</p>
-                    <p>${exp.role}</p>
                     <p>${exp.description}</p>
-                </div>`
-            ).join('');
-            document.getElementById('yearsContent').textContent = `${resume.years.toFixed(1)} years`;
+                </div>
+            `).join('');
+            document.getElementById('yearsContent').innerText = `${data.years.toFixed(2)} years`;
         } else {
-            document.getElementById('aboutMeContent').textContent = '';
-            document.getElementById('skillsList').innerHTML = '';
-            document.getElementById('experienceContent').innerHTML = '';
-            document.getElementById('yearsContent').textContent = '0 years';
+            console.error('Error fetching resume data');
         }
     } catch (error) {
-        console.error('Error fetching resume:', error);
+        console.error('Error fetching resume data:', error);
     }
-}
-
-function printResume() {
-    const resumeContent = document.getElementById('resumeContent').innerHTML;
-    const printWindow = window.open('', '', 'width=800,height=600');
-    printWindow.document.write('<html><head><title>Print Resume</title>');
-    printWindow.document.write('<link rel="stylesheet" type="text/css" href="styles.css">');
-    printWindow.document.write('</head><body >');
-    printWindow.document.write(resumeContent);
-    printWindow.document.write('</body></html>');
-    printWindow.document.close();
-    printWindow.print();
 }
